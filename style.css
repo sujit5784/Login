@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+    background-color: #eeeefb;
+    padding: 100px 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://t4.ftcdn.net/jpg/03/57/34/39/360_F_357343965_u58BFcRrziBVMqgt6liwPHJKcIjHsPnc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 28px;
+    text-align: center;
+    margin: 0px 0px 30px;
+    color: gray bl;
+}
+form{
+    box-shadow: 5px 5px 6px 6px lightgray ;
+    max-width: 400px;
+    width: 100%;
+    padding: 50px 60px ;
+    border-radius: 9px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    /* box-shadow:3px 3px 3px #d0d0d0,-3px -3px 3px #f8f8f8; */
+}
+.icon1{
+   position: relative;
+   bottom:55px ;
+   left: 10px;
+}
+a{
+    text-decoration: none;
+}
+p{
+  position: relative;
+  bottom:30px ;
+  left: 6px;
+}
+.btn{
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: none;
+    /* box-shadow:3px 3px 3px #d0d0d0,-3px -3px 3px #f8f8f8;  */
+    /* background-color: #008CBA; */
+    background-color:#3498db;
+}
+.Or{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.fbinsta{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    
+}
+.div1{
+    height: 35px;
+    width: 110px;
+    border: none;
+    padding-top: 6px;
+    padding-left: 10px;
+    background-color:#4267b2;
+    margin-left: 30px;
+}
+.div2{
+    height: 35px;
+    width: 110px;
+    border: none;
+    padding-top: 6px;
+    padding-left: 10px;
+    
+    background-color:#f31c79d6 ;
+    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
+}
+.div1:hover{
+    background-color: #008ad3;
+    transition: 0.5s ease-out;
+}
+.div2:hover{
+    background-color:#f31cd2d6;
+    transition: 0.5s ease-out;
+}
+.class1{
+    color: #ffff;
+}
+.div3{
+    margin-top: 30px;
+  text-align: center;
+}
+.forget{
+    color:black;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
